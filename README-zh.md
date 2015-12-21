@@ -2,23 +2,23 @@
 # PullToRefresh-Demo
 **[English](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/README.md)** **[中文](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/README_zh.md)**
 
-- This project is some demos of [Modified PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh). 
+- 该项目是 [Modified PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) 项目的一些示例演示。
 
-- [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) is forked from [chrisbanes/Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh).
+- [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) 是在[chrisbanes/Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)基础上完善而来。
 
-- [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) extends support RecyclerView, and can be easily customized to refresh loading styles.
+- [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) 扩展了支持 RecyclerView，并且可以轻松定制刷新加载样式。  
 
-## Using [Modified PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) in your application
+## Using [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) in your application
 
-If you are building with Gradle, simply add the following line to the `dependencies` section of your `build.gradle` file:
+如果您的项目使用 Gradle 构建, 只需要在您的`build.gradle`文件添加下面一行到 `dependencies` :
 
 ```
 	compile 'com.kevin:pulltorefresh:1.0.3'
 ```
 #Modules
 
-##JingDong
-This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** use in JingDong. Although the use in the moudle is PullToRefreshListView, you can use any other PullToRefresh Widget.
+##京东商城
+这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的京东商城的加载头部示例. 尽管使用的是PullToRefreshListView，您可以使用相同的方式来使用其他PullToRefresh控件。
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/JingDong/jingdong_header_demo.gif)
 
