@@ -1,1 +1,1 @@
-include ':JingDong'
+include ':JingDong', ':MeiTuan'

@@ -22,6 +22,11 @@ This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-Pu
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/JingDong/jingdong_header_demo.gif)
 
+##MeiTuan
+This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** use in MeiTuan. Although the use in the moudle is PullToRefreshScrollView, you can use any other PullToRefresh Widget.
+
+![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/MeiTuan/meituan_header_demo.gif)
+
 ## License
 
     Copyright 2015, Kevin.zhou

@@ -8,7 +8,7 @@
 
 - [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) 扩展了支持 RecyclerView，并且可以轻松定制刷新加载样式。  
 
-## Using [PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) in your application
+## 在项目中使用[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) 
 
 如果您的项目使用 Gradle 构建, 只需要在您的`build.gradle`文件添加下面一行到 `dependencies` :
 
@@ -21,6 +21,11 @@
 这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的京东商城的加载头部示例. 尽管使用的是PullToRefreshListView，您可以使用相同的方式来使用其他PullToRefresh控件。
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/JingDong/jingdong_header_demo.gif)
+
+##美团
+这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的美团的加载头部示例. 尽管使用的是PullToRefreshScrollView，您可以使用相同的方式来使用其他PullToRefresh控件。
+
+![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/MeiTuan/meituan_header_demo.gif)
 
 ## License
 
