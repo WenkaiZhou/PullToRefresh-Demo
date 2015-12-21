@@ -1,6 +1,6 @@
 
 # PullToRefresh-Demo
-**[English](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/README.md)** **[中文](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/README_zh.md)**
+**[English](https://github.com/xuehuayous/PullToRefresh-Demo)** **[中文](https://github.com/xuehuayous/PullToRefresh-Demo/blob/master/README-zh.md)**
 
 - 该项目是 [Modified PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh) 项目的一些示例演示。
 
