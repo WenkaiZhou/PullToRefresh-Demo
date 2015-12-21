@@ -1,2 +1,4 @@
-# JingDong-PullToRefresh
-PullToRefresh on the use of the JingDong
+
+# PullToRefresh-JingDong
+
+PullToRefresh use in JingDong
