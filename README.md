@@ -27,6 +27,12 @@ This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-Pu
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/MeiTuan/meituan_header_demo.gif)
 
+##AutoHome
+This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** use in AutoHome, and it used [Android-LoopView](https://github.com/xuehuayous/Android-LoopView), you can use it to easily achieve the rotation picture. Although the use in the moudle is PullToRefreshRecyclerView, you can use any other PullToRefresh Widget.
+
+![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/autohome_header_demo.gif)
+
+
 ## License
 
     Copyright 2015, Kevin.zhou

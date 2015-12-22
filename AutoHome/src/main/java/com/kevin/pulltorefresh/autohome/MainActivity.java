@@ -35,8 +35,7 @@ import java.util.LinkedList;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private String[] mStrings = { "Abbaye de Belloc", "Abbaye du Mont des Cats", "Abertam", "Abondance", "Ackawi",
-            "Acorn", "Adelost", "Kevin" };
+    private String[] mStrings = { "Auto Home is a good website.", "There are a lot of friends who love cars."};
 
     private PullToRefreshRecyclerView mPullToRefreshRecyclerView;
     private RecyclerView mRecyclerView;
@@ -51,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mListItems = new LinkedList<String>();
+        mListItems = new LinkedList<>();
         mListItems.addAll(Arrays.asList(mStrings));
 
         initViews();
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         mPullToRefreshRecyclerView.setHeaderLayout(new AutoHomeHeaderLayout(this));
 
         initRecyclerView();
-        initRotateView();
+        initLoopView();
     }
 
     /**
@@ -81,11 +80,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 初始化RotateView
+     * 初始化LoopView
+     *
+     * 这里使用的是LoopView开源项目，项目地址：https://github.com/xuehuayous/Android-LoopView
      *
      * @return void
      */
-    private void initRotateView() {
+    private void initLoopView() {
         LayoutInflater inflater = LayoutInflater.from(this);
         FrameLayout layout = (FrameLayout) inflater.inflate(R.layout.recycler_header, null);
         mAdLoopView = (AdLoopView) layout.findViewById(R.id.home_frag_rotate_vp);
@@ -116,9 +117,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected String[] doInBackground(Void... params) {
-            // Simulates a background job.
             try {
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
             }
             return mStrings;
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String[] result) {
             mListItems.addFirst("Added after refresh...");
-            mAdapter.notifyDataSetChanged();
+            mWrapAdapter.notifyDataSetChanged();
 
             // Call onRefreshComplete when the list has been refreshed.
             mPullToRefreshRecyclerView.onRefreshComplete();

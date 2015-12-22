@@ -18,14 +18,19 @@
 #Modules
 
 ##京东商城
-这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的京东商城的加载头部示例. 尽管使用的是PullToRefreshListView，您可以使用相同的方式来使用其他PullToRefresh控件。
+这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的京东商城的加载头部示例。尽管使用的是PullToRefreshListView，您可以使用相同的方式来使用其他PullToRefresh控件。
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/JingDong/jingdong_header_demo.gif)
 
 ##美团
-这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的美团的加载头部示例. 尽管使用的是PullToRefreshScrollView，您可以使用相同的方式来使用其他PullToRefresh控件。
+这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的美团的加载头部示例。尽管使用的是PullToRefreshScrollView，您可以使用相同的方式来使用其他PullToRefresh控件。
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/MeiTuan/meituan_header_demo.gif)
+
+##汽车之家
+这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的汽车之家的刷新加载示例，同时使用了[Android-LoopView](https://github.com/xuehuayous/Android-LoopView),使用它你可以轻松实现轮转大图。尽管使用的是PullToRefreshRecyclerView，您可以使用相同的方式来使用其他PullToRefresh控件。
+
+![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/autohome_header_demo.gif)
 
 ## License
 

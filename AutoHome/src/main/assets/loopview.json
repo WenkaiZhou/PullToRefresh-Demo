@@ -2,26 +2,26 @@
     "items": [
         {
             "id": "0",
-            "descText": "底特律之战",
-            "imgUrl": "http://www3.autoimg.cn/newsdfs/g11/M0E/1A/18/368x184_0_autohomecar__wKjBzFZ4n1CAALnMAAVWrPdsVUw788.jpg",
+            "descText": "底特律之战 别克昂科威对比Jeep自由光",
+            "imgUrl": "https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/picture/loopview_picture1.jpg",
             "link":"http://www.autohome.com.cn/drive/201512/882411-6.html#pvareaid=2023104"
         },
         {
             "id": "1",
-            "descText": "浅谈朗逸1.6L购车经历",
-            "imgUrl": "http://www2.autoimg.cn/newsdfs/g12/M14/14/55/368x184_0_autohomecar__wKgH4lZyFxSARe0sAAKh_IGCPOI250.jpg",
+            "descText": "注重安全性 浅谈朗逸1.6L购车经历",
+            "imgUrl": "https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/picture/loopview_picture2.jpg",
             "link":"http://club.autohome.com.cn/bbs/thread-c-614-46840565-1.html#pvareaid=2023107"
         },
         {
             "id": "2",
-            "descText": "入手奔驰CLS 400",
-            "imgUrl": "http://www3.autoimg.cn/newsdfs/g18/M04/13/37/368x184_0_autohomecar__wKgH2VZyageAKv9_AAKtGsJJJAE173.jpg",
+            "descText": "未来的路一起走 入手奔驰CLS 400",
+            "imgUrl": "https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/picture/loopview_picture3.jpg",
             "link":"http://club.autohome.com.cn/bbs/thread-c-365-48040044-1.html#pvareaid=2023108"
         },
         {
             "id": "3",
-            "descText": "实拍吉利博越1.8T",
-            "imgUrl": "http://www3.autoimg.cn/newsdfs/g18/M00/18/24/368x184_0_autohomecar__wKgH6FZ2dqqAE48SAAcg6dQxIPs741.jpg",
+            "descText": "实拍吉利博越1.8T四驱顶配车型",
+            "imgUrl": "https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/picture/loopview_picture4.jpg",
             "link":"http://www.autohome.com.cn/advice/201512/883057.html#pvareaid=2023109"
         }
     ]
