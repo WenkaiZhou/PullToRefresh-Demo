@@ -1,0 +1,9 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.kevin.loopview.AdLoopView
+        android:id="@+id/home_frag_rotate_vp"
+        android:layout_width="match_parent"
+        android:layout_height="152dp" />
+</FrameLayout>

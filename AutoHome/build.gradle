@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.kevin.pulltorefresh.meituan"
+        applicationId "com.kevin.pulltorefresh.autohome"
         minSdkVersion 11
         targetSdkVersion 23
         versionCode 1
@@ -25,4 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.0'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.kevin:pulltorefresh:1.0.4'
+    compile 'com.kevin:loopview:1.0.2'
 }

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoHome</string>
+
+    <string name="autohome_pull_label">下拉刷新</string>
+    <string name="autohome_refreshing_label">正在加载</string>
+    <string name="autohome_release_label">松开刷新</string>
+</resources>
