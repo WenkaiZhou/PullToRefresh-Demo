@@ -26,4 +26,5 @@ dependencies {
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.kevin:pulltorefresh:1.0.4'
     compile 'com.kevin:loopview:1.0.4'
+    compile 'com.kevin:wraprecyclerview:1.0.1'
 }

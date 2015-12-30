@@ -1,6 +1,5 @@
 package com.kevin.pulltorefresh.autohome;
 
-import android.graphics.Color;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,14 +10,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.extras.recyclerview.PullToRefreshRecyclerView;
 import com.kevin.loopview.AdLoopView;
 import com.kevin.pulltorefresh.autohome.loadinglayout.AutoHomeHeaderLayout;
+import com.kevin.wraprecyclerview.WrapAdapter;
 
-import java.io.WriteAbortedException;
 import java.util.Arrays;
 import java.util.LinkedList;
 
