@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tmall</string>
+
+    <string name="tmall_pull_label">下拉刷新</string>
+    <string name="tmall_refreshing_label">正在刷新...</string>
+    <string name="tmall_release_label">松开立即刷新</string>
+</resources>

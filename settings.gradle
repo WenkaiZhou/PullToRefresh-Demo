@@ -1,1 +1,1 @@
-include ':JingDong', ':MeiTuan', ':AutoHome'
+include ':JingDong', ':MeiTuan', ':AutoHome', ':Tmall'
