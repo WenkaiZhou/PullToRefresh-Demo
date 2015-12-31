@@ -46,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
         mListItems = new LinkedList<>();
         mListItems.add(R.mipmap.tm_recycler0);
-        mListItems.add(R.mipmap.tm_recycler1);
+        mListItems.add(R.mipmap.tm_recycler2);
+        mListItems.add(R.mipmap.tm_recycler4);
 
         initViews();
         initEvents();
@@ -118,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             if(params[0].equals("下拉刷新")) {
                 return new Integer[0];
             } else {
-                Integer[] a1 = {R.mipmap.tm_recycler2, R.mipmap.tm_recycler3};
+                Integer[] a1 = {R.mipmap.tm_recycler1, R.mipmap.tm_recycler3, R.mipmap.tm_recycler5};
                 return a1;
             }
         }
