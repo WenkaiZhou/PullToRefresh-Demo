@@ -13,7 +13,7 @@
 If you are building with Gradle, simply add the following line to the `dependencies` section of your `build.gradle` file:
 
 ```
-	compile 'com.kevin:pulltorefresh:1.0.3'
+	compile 'com.kevin:pulltorefresh:1.0.7'
 ```
 #Modules
 
@@ -32,6 +32,10 @@ This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-Pu
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/autohome_header_demo.gif)
 
+#天猫
+This module a demo of **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** use in Tmall,and it used [WrapRecyclerView](https://github.com/xuehuayous/WrapRecyclerView),  it allows you to easily add headers and footers for RecyclerView. Although the use in the moudle is PullToRefreshRecyclerView, you can use any other PullToRefresh Widget.
+
+![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/Tmall/tmall_demo.gif)
 
 ## License
 

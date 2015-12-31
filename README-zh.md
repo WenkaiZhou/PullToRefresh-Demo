@@ -13,7 +13,7 @@
 如果您的项目使用 Gradle 构建, 只需要在您的`build.gradle`文件添加下面一行到 `dependencies` :
 
 ```
-	compile 'com.kevin:pulltorefresh:1.0.3'
+	compile 'com.kevin:pulltorefresh:1.0.7'
 ```
 #Modules
 
@@ -31,6 +31,11 @@
 这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的汽车之家的刷新加载示例，同时使用了[Android-LoopView](https://github.com/xuehuayous/Android-LoopView),使用它你可以轻松实现轮转大图。尽管使用的是PullToRefreshRecyclerView，您可以使用相同的方式来使用其他PullToRefresh控件。
 
 ![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/AutoHome/autohome_header_demo.gif)
+
+#天猫
+这是一个用 **[PullToRefresh](https://github.com/xuehuayous/Android-PullToRefresh)** 实现的天猫的刷新加载示例，同时使用了[WrapRecyclerView](https://github.com/xuehuayous/WrapRecyclerView), 使用它您可以轻松为RecyclerView添加头部和尾部。尽管使用的是PullToRefreshRecyclerView，您可以使用相同的方式来使用其他PullToRefresh控件。
+
+![Screenshot](https://raw.githubusercontent.com/xuehuayous/PullToRefresh-Demo/master/Tmall/tmall_demo.gif)
 
 ## License
 
