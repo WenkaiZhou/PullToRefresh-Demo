@@ -81,14 +81,14 @@ public class MainActivity extends AppCompatActivity {
         ImageView loopViewImage = new ImageView(this);
         ViewGroup.LayoutParams loopViewParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         loopViewImage.setLayoutParams(loopViewParams);
-        loopViewImage.setImageResource(R.mipmap.tm_picture0);
+        loopViewImage.setBackgroundResource(R.mipmap.tm_picture0);
         mWrapAdapter.addHeaderView(loopViewImage);
 
         // 添加头部功能选择，这里用一张图片模拟实现。
         ImageView functionImage = new ImageView(this);
         ViewGroup.LayoutParams functionParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         functionImage.setLayoutParams(functionParams);
-        functionImage.setImageResource(R.mipmap.tm_picture1);
+        functionImage.setBackgroundResource(R.mipmap.tm_picture1);
         mWrapAdapter.addHeaderView(functionImage);
     }
 
